@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: springgreen;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreatePet">
+   <children>
+      <Label layoutX="111.0" layoutY="48.0" text="Select pet's type">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" startX="1.0" startY="0.6476190476190475">
+               <stops>
+                  <Stop color="DARKRED" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Pane layoutX="21.0" layoutY="100.0" prefHeight="200.0" prefWidth="552.0" style="-fx-background-color: palegreen; -fx-border-color: MediumSeaGreen;">
+         <children>
+            <ToggleButton fx:id="pet1" layoutX="5.0" layoutY="4.0" mnemonicParsing="false" prefHeight="192.0" prefWidth="173.0" style="-fx-background-color: palegreen;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="176.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/cat.png" />
+                     </image>
+                  </ImageView>
+               </graphic></ToggleButton>
+            <ToggleButton fx:id="pet2" layoutX="182.0" layoutY="4.0" mnemonicParsing="false" prefHeight="192.0" prefWidth="181.0" style="-fx-background-color: palegreen;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="176.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dog.png" />
+                     </image>
+                  </ImageView>
+               </graphic></ToggleButton>
+            <ToggleButton fx:id="pet3" layoutX="365.0" layoutY="4.0" mnemonicParsing="false" prefHeight="192.0" prefWidth="173.0" style="-fx-background-color: palegreen;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="177.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/bunny.png" />
+                     </image>
+                  </ImageView>
+               </graphic></ToggleButton>
+         </children>
+      </Pane>
+      <Button fx:id="select" layoutX="200.0" layoutY="307.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="201.0" style="-fx-border-color: darkred; -fx-background-color: #05F07A; -fx-border-radius: 4;" text="Select">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Onyx" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.49444444444444446" centerY="0.35238095238095235" focusDistance="-1.1102230246251565E-16" radius="0.43023255813953487">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="DARKRED" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="back" layoutX="200.0" layoutY="348.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="201.0" style="-fx-border-color: darkred; -fx-background-color: #05F07A; -fx-border-radius: 4;" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Onyx" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.49444444444444446" centerY="0.35238095238095235" focusDistance="-1.1102230246251565E-16" radius="0.43023255813953487">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="DARKRED" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

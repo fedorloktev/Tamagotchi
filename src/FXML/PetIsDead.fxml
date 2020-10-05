@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="154.0" prefWidth="600.0" style="-fx-background-color: springgreen;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PetIsDead">
+   <children>
+      <Text layoutX="259.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sorry!">
+         <font>
+            <Font name="Impact" size="33.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="0.06666666666666665" startX="1.0" startY="0.6952380952380952">
+               <stops>
+                  <Stop color="DARKRED" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="16.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apparently, you forgot to feed your pet for a long time and he died of hunger!">
+         <font>
+            <Font name="Constantia" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="81.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next time, try to better take care of their pet">
+         <font>
+            <Font name="Constantia" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="109.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You will be able to get a new pet in                           seconds" wrappingWidth="393.09033203125">
+         <font>
+            <Font name="Constantia" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="second" layoutX="390.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Constantia" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
